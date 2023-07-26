@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'docker build -t image-from-jenkins:v1 .'
+                 echo 'majdi saad'
             }
         }
         stage('Deploy') {
